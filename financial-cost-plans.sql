@@ -22,9 +22,9 @@ SELECT DISTINCT p.id                                                 AS id,
                   p.last_updated_date, 
                   pp.last_updated_date, 
                   COALESCE(pd.last_updated_date, p.last_updated_date)
-                ) 								                                   AS last_updated_date 
+                ) 								              AS last_updated_date 
 FROM   fin_plans p 
        INNER JOIN odf_ca_costplan pp 
                ON p.id = pp.id 
        LEFT OUTER JOIN fin_cost_plan_details pd 
-               ON p.id = pd.plan_id 
+                    ON p.id = pd.plan_id 
