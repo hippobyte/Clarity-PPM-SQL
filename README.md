@@ -10,3 +10,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/hippob
 
 - Open a Pull Request
 - Await review
+
+## License
+
+See [LICENSE](https://github.com/hippobyte/Clarity-PPM-SQL/blob/master/LICENSE) file.
